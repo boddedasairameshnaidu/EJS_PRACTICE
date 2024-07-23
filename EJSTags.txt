@@ -1,0 +1,6 @@
+<%= variable %> ------- JS Output
+<% console.log("hello") %> ------- Executable JS code
+<%- <h1>Hello</h1> %> -------- Render HTML
+<%% %%> ------ show <% or %>
+<%# This is a comment %> -------- stop execution
+<%- include("header.ejs") %> ----- like extends in django 
